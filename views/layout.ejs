@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/materialize.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+
+    <body>
+        <div class="navbar-fixed">
+            <nav class="navbar" role="navigation">
+                <div class="nav-wrapper ">
+                    <a id="logo-container" href="#top-page" class="brand-logo center">Facebook Events Locator</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="section row">
+                <form id="search" class="col s12">
+                    <div class="input-field">
+                        <input placeholder="Enter a Location" id="location" type="text" class="validate">
+                        <label for="location">Enter Location:</label>
+                    </div>
+                    <button id="submit" class="btn waves-effect waves-light" type="submit" name="action">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- GOOGLE EVENTS MAP -->
+            <div class="col s12 m6 l6">
+                <div id="map"></div>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcODGtsGblGLRG3MKkVIRwIN6qDGMxGGM&callback=initMap"></script>
+    </body>
+
+</html>

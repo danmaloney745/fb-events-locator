@@ -1,0 +1,23 @@
+
+/*GLOBAL STYLING */
+button#submit{
+    background-color: #3b5998
+}
+
+/* END GLOBAL STYLING */
+
+/* NAVBAR STYLING */
+nav {
+    background-color:#3b5998;
+}
+
+/* END NAVBAR STYLING */
+
+
+/* MAP STYLING */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/* END MAP STYLING */
